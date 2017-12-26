@@ -36,4 +36,11 @@ public class JobAlignConfigPage extends JobAlignWebPageAbstract{
 		else
 			System.err.println("Cannot Find Users Tab. Consider moving to Configuration Page.");
 	}
+	
+	public void logout() {
+		if (this.driver.findElement(logout).isDisplayed())
+			this.driver.findElement(logout).click();
+		else 
+			System.err.println("Logout not visible from current page. Consider moving back to Home page.");
+	}
 }

@@ -10,6 +10,6 @@ public class JobAlignUserPage extends JobAlignWebPageAbstract{
 	
 	//Add User Button Click Event
 	public void clickAddUser(){
-		
+		this.driver.findElement(addUserButton).click();
 	}
 }

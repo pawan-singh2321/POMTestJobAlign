@@ -43,6 +43,10 @@ public abstract class JobAlignWebPageAbstract {
 	
 	//Users Page
 	protected By addUserButton = By.cssSelector(".js-adduser");
+	protected By userActionModal = By.xpath("//div[@id='user-action-modal']");
+	protected By selectRole = By.xpath("//div[@class='userview-action-control-row']//select");
+	protected By inputFields = By.xpath("//div[@class='userview-action-control-row']//input");
+//	protected By 
 	
 	
 	//Common Methods
